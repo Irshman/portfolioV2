@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<!-- <div class="loaded"></div> -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#hero" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link">About me</a></li>
+							<li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+							<li class="menu__item"><a href="#work" class="menu__link">Portfolio</a></li>
+							<li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section id="hero" class="page__hero hero-page">
+				<div class="hero-page__container">
+					<div class="hero-page__info">
+						<h1 class="hero-page__name">Skvortsov Yevhenii</h1>
+						<div class="hero-page__position">Front-end developer</div>
+					</div>
+					<div class="hero-page__bg">
+						<video autoplay muted loop class="hero-page__video" src="img/video.mp4"></video>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="page__about about-page">
+				<div class="about-page__container">
+					<h2 class="about-page__title title">About me</h2>
+					<div class="about-page__text">Hi, I'm Yevhenii <br>
+						Welcome to my portfolio site. I really like to create websites, and I try to constantly develop myself in it.<br>
+						I studied at the author's courses of the ITEA company.<br>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="page__skill skill-page">
+				<div class="skill-page__container">
+					<h2 class="skill-page__title title">Skills</h2>
+					<div class="skill-page__text">I have such skills</div>
+					<div class="skill-page__body body-item">
+
+						<!-- HTML  -->
+						<div class="body-item__item">
+							<h2 class="body-item__name">HTML</h2>
+							<div class="body-item__progress">
+								<div class="body-item__progress-value body-item__progress-value--html"></div>
+							</div>
+						</div>
+
+						<!-- CSS SKILL -->
+
+						<div class="body-item__item">
+							<h2 class="body-item__name">CSS</h2>
+							<div class="body-item__progress">
+								<div class="body-item__progress-value body-item__progress-value--css"></div>
+							</div>
+						</div>
+
+						<!-- SCSS / Sass SKILL -->
+
+						<div class="body-item__item">
+							<h2 class="body-item__name">Sass</h2>
+							<div class="body-item__progress">
+								<div class="body-item__progress-value body-item__progress-value--sass"></div>
+							</div>
+						</div>
+
+						<!-- JavaScrip SKILL -->
+
+						<div class="body-item__item">
+							<h2 class="body-item__name">JS</h2>
+							<div class="body-item__progress">
+								<div class="body-item__progress-value body-item__progress-value--js"></div>
+							</div>
+						</div>
+
+						<!-- Git SKILL -->
+
+						<div class="body-item__item">
+							<h2 class="body-item__name">Git</h2>
+							<div class="body-item__progress">
+								<div class="body-item__progress-value body-item__progress-value--git"></div>
+							</div>
+						</div>
+
+						<!-- Bootstrap SKILL -->
+
+						<div class="body-item__item">
+							<h2 class="body-item__name">Bootstrap</h2>
+							<div class="body-item__progress">
+								<div class="body-item__progress-value body-item__progress-value--bootstrap"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="work" class="page__work work-page">
+				<div class="work-page__container">
+					<h2 class="work-page__title title">Portfolio</h2>
+					<div class="work-page__body body-works">
+						<div data-tabs class="body-works">
+							<nav data-tabs-titles class="body-works__navigation">
+								<button type="button" class="body-works__title _tab-active">Web-site</button>
+								<button type="button" class="body-works__title">Pet-project JS</button>
+							</nav>
+							<div data-tabs-body class="body-works__content">
+								<div class="body-works__body">
+									<div class="body-works__cards cards-work">
+
+										<!-- Travelend  -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/trevland/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/travelend.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/trevland/" target="_blank">Travelend</a></h3>
+										</div>
+
+										<!-- Freshfruits -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/freshfruits/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/freshfruits.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/freshfruits/" target="_blank">Freshfruits</a></h3>
+										</div>
+
+										<!-- Logos -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/logos_shop/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/logos.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/logos_shop/" target="_blank">Logos</a></h3>
+										</div>
+
+										<!-- Escape -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/escape/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/escape.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/escape/" target="_blank">Escape</a></h3>
+										</div>
+
+										<!-- Konstructor -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/konstruct/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/konstructor.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/konstruct/" target="_blank">Konstructor</a></h3>
+										</div>
+
+										<!-- Freebie Agency -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/freebie/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/freebie.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/freebie/" target="_blank">Freebie Agency</a></h3>
+										</div>
+
+										<!-- Soft Point -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/softpoint/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/softpoint.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/softpoint/" target="_blank">Soft point</a></h3>
+										</div>
+
+									</div>
+								</div>
+
+								<!-- JS Pet-project  -->
+
+								<div class="body-works__body">
+									<div class="body-works__cards cards-work">
+
+										<!-- Star Wars API  -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/Star-Wars-API/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/starwars.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/Star-Wars-API/" target="_blank">Star Wars API</a></h3>
+										</div>
+
+										<!-- Background Changer -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/BackgroundChanger/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/backgroundChenger.jpg" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/BackgroundChanger/" target="_blank">Background changer</a></h3>
+										</div>
+
+										<!-- The wether -->
+
+										<div class="cards-work__card">
+											<a href="https://irshman.github.io/theweather/" target="_blank" class="cards-work__image-link">
+												<img src="img/projects/thewether.png" alt="Picture" class="cards-work__image">
+											</a>
+											<h3 class="cards-work__name"><a href="https://irshman.github.io/theweather/" target="_blank">The wether</a></h3>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- <section class="page__certifications certifications-page">
+					<h2 class="certifications-page__title title">Certifications</h2>
+					<div class="certifications-page__text">My certifications</div>
+					<div class="certifications-page__body body-certifications">
+						<div class="body-certifications__item-ibg">
+						
+						</div>
+					</div>
+				</section> -->
+
+		</main>
+		<footer id="contacts" class="footer">
+			<div class="footer__container">
+				<h2 class="footer__title title">Contacts</h2>
+				<div class="footer__text">Want to know more or just chat? <br>You are welcome!</div>
+				<div class="footer__body">
+					<div class="footer__list">
+						<li class="footer__item"><a href="https://t.me/Irshman" target="_blank" class="footer__link"><img src="img/social/telegram.png" alt="telegram"></a></li>
+						<li class="footer__item"><a href="https://github.com/Irshman" target="_blank" class="footer__link"><img src="img/social/github.png" alt="github"></a></li>
+						<li class="footer__item"><a href="https://www.linkedin.com/in/evhenii-skvortsov-8695351a9" target="_blank" class="footer__link"><img src="img/social/linkedin.png" alt="linkedin"></a></li>
+						<li class="footer__item"><a href="mailto:zhenyaskvortsov9@gmail.com"" target=" _blank" class="footer__link"><img src="img/social/email.png" alt="mail"></a></li>
+						<li class="footer__item"><a href="https://instagram.com/zhenya_skvortsov?utm_medium=copy_link" target="_blank" class="footer__link"><img src="img/social/instagram.png" alt="insta"></a></li>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
