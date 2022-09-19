@@ -680,6 +680,9 @@ body::-webkit-scrollbar-thumb {
 .body-item__progress-value--js {
   animation: js 3s normal forwards;
 }
+.body-item__progress-value--react {
+  animation: react 3s normal forwards;
+}
 .body-item__progress-value--git {
   animation: git 3s normal forwards;
 }
@@ -699,7 +702,7 @@ body::-webkit-scrollbar-thumb {
     width: 0;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes js {
@@ -707,7 +710,15 @@ body::-webkit-scrollbar-thumb {
     width: 0;
   }
   100% {
-    width: 65%;
+    width: 70%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
   }
 }
 @keyframes git {
@@ -715,7 +726,7 @@ body::-webkit-scrollbar-thumb {
     width: 0;
   }
   100% {
-    width: 45%;
+    width: 65%;
   }
 }
 @keyframes sass {
@@ -723,7 +734,7 @@ body::-webkit-scrollbar-thumb {
     width: 0;
   }
   100% {
-    width: 60%;
+    width: 65%;
   }
 }
 @keyframes bootstrap {
